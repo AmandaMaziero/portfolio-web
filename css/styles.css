@@ -1,0 +1,22 @@
+body {
+    background-color: #21BFDB;
+}
+
+.navigation {
+    background-color: #1866AB;
+    color: white;
+}
+
+.capa {
+    color: white;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.capa span {
+    color: #1866AB;
+    display: block;
+}
