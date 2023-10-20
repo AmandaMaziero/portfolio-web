@@ -1,22 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
 body {
-    background-color: #21BFDB;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1866AB;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    color: white;
 }
 
 .navigation {
-    background-color: #1866AB;
-    color: white;
+    text-align: end;
+}
+
+.navigation ul li {
+    display: inline;
+    list-style: none;
+    padding: 2%;
+}
+
+.navigation ul li:hover {
+    color: #21BFDB;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 .capa {
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.name h2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.capa h1,
+h2 {
+    padding: 3%;
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    padding: 3%;
 }
 
 .capa span {
-    color: #1866AB;
+    color: #21BFDB;
     display: block;
+    padding: 0;
 }
