@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Amanda Maziero - Portfólio Online</title>
 </head>
+
 <body>
     <div class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Portfólio</a></li>
             <li><a href="curriculo.html">Currículo</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
     </div>
-    <div>
-
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>></li>
-            <li>Currículo</li>
-        </ul>
-
-        <h1>Currículo</h1>
-
-        <h2>Dados Pessoais</h2>
-        <h3>Nome:</h3>
-        <p>Amanda</p>
-        <h3>Data de Nascimento:</h3>
-        <p>10/06/2002</p>
-        <h3>Residência:</h3>
-        <p>São Miguel Arcanjo, SP</p>
-
-        <h3>Idiomas:</h3>
-        <p>Português (Nativo)</p>
-        <p>Inglês</p>
-        <p>Espanhol</p>
-
+    <div class="container">
+        <div class="linkagem">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+            </ul>
+        </div>
+    
+        <div class="title">
+            <h1>Currículo</h1>
+            <h2>Dados Pessoais</h2>
+        </div>
+    
+        <div class="info">
+            <img src="assets/foto.jpg" class="image" alt="Amanda Maziero">
+            <div class="dados">
+                <h3>Nome:</h3>
+                <p>Amanda Maziero</p>
+                <h3>Data de Nascimento:</h3>
+                <p>10/06/2002</p>
+                <h3>Residência:</h3>
+                <p>São Miguel Arcanjo, SP</p>
+            </div>
+        </div>
+    
+        <div class="idiomas">
+            <h3>Idiomas:</h3>
+            <p>Português (Nativo)</p>
+            <p>Inglês</p>
+            <p>Espanhol</p>
+        </div>
+    
         <h2>Sobre Mim</h2>
-        <p>Eu sou a Amanda, tenho <span id="idade">x</span> anos. 
-            Tive meu primeiro contato com desenvolvimento no curso técnico de Informática, ao qual fiz integrado ao ensino médio na instituição Instituto Federal. 
-            Desde disso peguei apreço por essa habilidade. Ao terminar, resolvi entrar na faculdade de Análise e Desenvolvimento de Sistemas na Fatec e nisso embarquei na EvolutionSoft.
-        Venho participando de projetos, melhorando e pegando experiência.</p>
-        <p>Entre meus hobbies estão jogos e livros, adoro fazer isso no meu tempo livre. Adoro The Sims 4 e Stardew Valley em principal.</p>
-
+        <p>Eu sou a Amanda, tenho <span id="idade">x</span> anos.
+            Tive meu primeiro contato com desenvolvimento no curso técnico de Informática, ao qual fiz integrado ao ensino
+            médio na instituição Instituto Federal.
+            Desde disso peguei apreço por essa habilidade. Ao terminar, resolvi entrar na faculdade de Análise e
+            Desenvolvimento de Sistemas na Fatec e nisso embarquei na EvolutionSoft.
+            Venho participando de projetos, melhorando e pegando experiência.</p>
+        <p>Entre meus hobbies estão jogos e livros, adoro fazer isso no meu tempo livre. Adoro The Sims 4 e Stardew Valley
+            em principal.</p>
+    
         <h2>Educação</h2>
         <h3>2021 - Em andamento</h3>
         <p>Análise e Desenvolvimento de Sistemas - FATEC Itapetininga</p>
@@ -53,7 +70,7 @@
         <p>Ensino Médio Integrado ao Curso Técnico de Informática - IFSP Itapetininga</p>
         <h3>2016</h3>
         <p>Ensino Fundamental - E.E José Baltazar de Souza</p>
-
+    
         <h2>Habilidades</h2>
         <h3>Linguagens de Programação</h3>
         <p>NodeJS, JavaScript, PHP, HTML, CSS, Python, Java, C#</p>
@@ -61,25 +78,28 @@
         <p>MySQL, MongoDB, Postgres</p>
         <h3>Cloud</h3>
         <p>AWS S3</p>
-
+    
         <h2>Experiência de Trabalho</h2>
         <h3>Dez/2021 - Abril/2022</h3>
         <p>Estagiária Backend - EvolutionSoft - Itapetininga, SP</p>
         <h3>Abril/2022 - Presente</h3>
         <p>Desenvolvedora Backend - EvolutionSoft - Itapetininga, SP</p>
+    
+        <a href="#" class="back">Voltar ao início<a>
 
-        <h2>Contato</h2>
-        <p>amandajmaziero@gmail.com</p>
-        <p>(15) 99793-3265</p>
-
-
-        <a href="index.html">Voltar ao início<a>
     </div>
 </body>
 
 </html>
 <script>
-var ano = new Date().getFullYear()
-var idadeAtual = ano - 2002
-$("#idade").text(idadeAtual);
+    var atual = new Date()
+    var ano = new Date().getFullYear()
+    var aniversario = new Date(`${ano}-06-10`)
+    var idadeAtual
+    if (atual >= aniversario) {
+        idadeAtual = ano - 2002
+    } else {
+        idadeAtual = ano - 2003
+    }
+    $("#idade").text(idadeAtual)
 </script>

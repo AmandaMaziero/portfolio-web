@@ -7,7 +7,8 @@ body {
 }
 
 body {
-    background-color: #1866AB;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(24, 102, 171, 1) 55%, rgba(0, 212, 255, 1) 100%);
     font-family: 'Poppins', sans-serif;
     padding: 1%;
     color: white;
@@ -33,11 +34,11 @@ a {
     text-decoration: none;
 }
 
-h1 {
+.capa h1 {
     font-size: 4rem;
 }
 
-h2 {
+.capa h2 {
     font-size: 1.5rem;
 }
 
@@ -66,8 +67,71 @@ h2 {
     padding: 3%;
 }
 
+/* @keyframes avatar {
+    
+} */
+
 .capa span {
     color: #21BFDB;
     display: block;
     padding: 0;
+}
+
+.container h1,
+h2,
+h3,
+p {
+    padding: 0% 0% 0% 3%;
+}
+
+.container h1 {
+    font-size: 2rem;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    color: #21BFDB;
+}
+
+.container h3 {
+    font-size: 0.5;
+    color: #21BFDB;
+}
+
+.container p {
+    text-align: justify;
+    width: 50%;
+}
+
+.linkagem {
+    padding-left: 1%;
+}
+
+.linkagem ul li {
+    display: inline;
+    list-style: none;
+}
+
+.linkagem ul li:hover {
+    color: #21BFDB;
+    cursor: pointer;
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    padding: 0% 2% 2% 3%;
+}
+
+.idiomas {
+    clear: left;
+}
+
+.dados {
+    padding: 1%;
+}
+
+.back {
+    padding: 3%;
 }
