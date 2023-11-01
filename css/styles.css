@@ -16,6 +16,8 @@ body {
 
 .navigation {
     text-align: end;
+    animation-name: navigation;
+    animation-duration: 4s;
 }
 
 .navigation ul li {
@@ -27,6 +29,10 @@ body {
 .navigation ul li:hover {
     color: #21BFDB;
     cursor: pointer;
+}
+
+.navigation ul .three-line{
+    display: none;
 }
 
 a {
@@ -47,6 +53,8 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    animation-name: profile;
+    animation-duration: 2s;
 }
 
 .name h2 {
@@ -66,10 +74,6 @@ h2 {
     border-radius: 20rem;
     padding: 3%;
 }
-
-/* @keyframes avatar {
-    
-} */
 
 .capa span {
     color: #21BFDB;
@@ -134,4 +138,30 @@ p {
 
 .back {
     padding: 3%;
+}
+
+@keyframes profile {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes navigation {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media (max-width: 1000px) {
+    .navigation ul li {
+        display: none;
+    }
+
+    .navigation ul .three-line{
+        display: inline-block;
+    }
+
+    .capa {
+        display: block;
+        text-align: center;
+    }
 }
