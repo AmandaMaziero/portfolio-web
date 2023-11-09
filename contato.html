@@ -5,19 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Amanda Maziero - Portfólio Online</title>
 </head>
 
 <body>
-    <div class="navigation">
+    <div class="navigation" id="topNav">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Portfólio</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
             <li><a href="curriculo.html">Currículo</a></li>
             <li><a href="contato.html">Contato</a></li>
-            <li class="three-line"><i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></li>
+            <li class="three-line"><a href="javascript:void(0);" onclick="responsividade()"><i
+                        class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></a></li>
         </ul>
     </div>
+
+    <div class="container">
+        <div class="linkagem">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>Contato</h1>
+        </div>
+        <div class="conventional">
+            <h3>Email</h3>
+            <p>amandajmaziero@gmail.com</p>
+            <h3>Telefone</h3>
+            <p>(15) 99793-3265</p>
+        </div>
+        <div class="social-media">
+            <h2>Redes Sociais:</h2>
+            <ul>
+                <li><a href="https://github.com/AmandaMaziero"><i class="fa-brands fa-github fa-3xl"
+                            style="color: #ffffff;"></i></a></li>
+                <li><a href="https://br.linkedin.com/in/amanda-aparecida-julio-maziero"><i class="fa-brands fa-linkedin fa-3xl"
+                            style="color: #ffffff;"></i></a></li>
+                <li><a href="https://www.instagram.com/mandymaziero/"><i class="fa-brands fa-instagram fa-3xl"
+                            style="color: #ffffff;"></i></a></li>
+                <li><a href="https://www.facebook.com/amandajuliomaziero/"><i class="fa-brands fa-facebook fa-3xl" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </div>
+        <a href="#" class="back">Voltar ao início<a></a>
+    </div>
+    <script>
+        function responsividade() {
+            var x = document.getElementById("topNav");
+            if (x.className === "navigation") {
+                x.className += " responsive";
+            } else {
+                x.className = "navigation";
+            }
+        }
+    </script>
 </body>
 
 </html>
