@@ -217,6 +217,14 @@ p {
     padding: 3%;
 }
 
+.nf-page {
+    text-align: center;
+}
+
+.nf-page h1 {
+    font-size: 5rem;
+}
+
 @keyframes profile {
     0% {
         opacity: 0;
@@ -357,5 +365,9 @@ p {
         width: 20rem;
         height: 12rem;
         padding: 3%;
+    }
+
+    .nf-page h1 {
+        font-size: 3rem;
     }
 }
